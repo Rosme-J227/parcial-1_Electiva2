@@ -3,7 +3,7 @@
 #### 2024-1779
 -------------------
 
-#### Mandato 
+## Mandato 
 
 Objetivo: Crear una pagina web y hacer integracion continua con github actions y surge.sh
 
@@ -14,8 +14,9 @@ b) crear el repositorio en github
 c) crear el directorio y archivo yml de github actions (.github/workflows/main.yaml)
 4) instalar surge.sh 
 5) probar que todo funciona
+
 -------------------
 
 ## Estado: DONE ✅  
-Surgee page: https://rosme_pagina.surge.sh/ 
+Surge page: https://rosme_pagina.surge.sh/ 
 --------------------
