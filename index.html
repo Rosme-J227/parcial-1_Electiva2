@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea CI - Rosmeris</title>
+    <style>
+       
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        
+        body {
+            background: linear-gradient(to right, #2b58cc, #d866ff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+       
+        .circle {
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, #1a1a3a 0%, #000000 100%);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-shadow: 0 10px 50px rgba(0,0,0,0.5);
+            padding: 40px;
+            color: white;
+        }
+
+    
+        h1 {
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+
+        .github-btn {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 10px 25px;
+            text-decoration: none;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        .github-btn:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="circle">
+        <h1>Hola Soy Rosmeris,<br>esta es mi tarea de CI<br>Electiva 2</h1>
+        
+        <p style="margin-bottom: 30px; font-size: 0.9rem; opacity: 0.8;">
+            Despliegue automático a Surge.sh
+        </p>
+
+        <a href="#" class="github-btn">GITHUB CODE</a>
+    </div>
+
+</body>
+</html>
